@@ -1,0 +1,97 @@
+.staic{
+    position: static;
+    left: 500px;
+    top: 200px;
+}
+.relative{
+    position: relative;
+    left: 500px;
+    top: 20px;
+    width: 500px;
+}
+.parent{
+    position: relative;
+    height: 300px;
+    width: 50%;
+    margin: 2rem auto;
+}
+.parent h3{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width:fit-content;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    left: 10px;
+    top: 0px;
+}
+
+.fixed{
+    position: relative;
+
+}
+.fixed h3{
+    position: fixed;
+    background-color: purple;
+    color: white;
+    width: fit-content;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    right: 10px;
+    top: 0px;
+}
+
+.sticky{
+    background-color: tomato;
+    color: white;
+    /* width: 100%; */
+    padding: 10px 20px;
+    position: sticky;
+    height: 150px;
+    top: -100px;
+    border: none !important;
+}
+
+.sticky *{
+    border: none !important;
+}
+
+/* Zindex */
+.cards{
+    width: 50%;
+    height: 300px;
+    margin: 2rem;
+    position: relative;
+}
+
+.cards .card{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    /* border: 2px groove black; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cards .red{
+    background-color: tomato;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.cards .blue{
+    background-color: blue;
+    top: 0px;
+    left: 80px;
+    z-index: 4;
+}
+
+.cards .green{
+    background-color: green;
+    top: 0px;
+    left: 40px;
+    z-index: 3;
+
+}

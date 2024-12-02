@@ -3,22 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <!-- link to css -->
+     <link rel="stylesheet" href="../css/portfolio.css">
+    <style>
+        body *{
+            border: 1px solid red;
+            padding: 1px;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
+    <!-- sticky -->
+    <div class="sticky">
+        <h2>Attentions</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque eaque aspernatur sed labore quia, molestias, qui impedit corporis et, mollitia quisquam accusantium ipsam? Unde, reiciendis. Magnam commodi autem eius tempore?</p>
+        <h3>scroll up to read info</h3>
+    </div>
     <!-- nav -->
      <nav>
         <div class="boxa">
-            <img src="" alt="logo">
+            <img src="1" alt="logo">
         </div>
         <div class="boxb">
+            <a href="">About me</a>
+            <a href="">Skills</a>
+            <a href="">Portfolio</a>
+            <a class="contact" href="">CONTACT ME</a>
         </div>
-     </nav>
-     <a href="" class=""></a>
      <div class="section1">
         <div class="box1">
-
+            <p class="p1">Hi, I am</p>
+            <p class="p2">Tomasz Gajda</p>
+            <p class="p3">Front-end Developer / UI Designer</p>
+            <div class="icons">
+                <img src="2" alt="icon1">
+                <img src="3" alt="icon2">
+                <img src="4" alt="icon3">
+            </div>
+        </div>
+        <div class="box2">
+            <img src="5" alt="user image">
+            <p>this is not my photo, but I dearly hope to get one just like this</p>
         </div>
      </div>
+     </nav>
+     <!--postions  -->
+     <!-- static -->
+      <div class="static">
+      <h3>this h3 has a static position</h3>
+      </div>
+      <!-- relative -->
+      <div class="relative">
+      <h3>this h3 has a relative position</h3>
+      </div>
+      <!-- absolute -->
+      <div class="parent">
+      <h3>child with absolute position</h3>
+      </div>
+      <div class="fixed">
+
+        <!-- fixed -->
+      <h3>child with fixed position</h3>
+      </div>
+      <!-- Zindex or Z-index -->
+       <div class="cards">
+        <div class="red card"></div>
+        <div class="blue card "></div>
+        <div class="green card"></div>
+       </div>
 </body>
 </html>
